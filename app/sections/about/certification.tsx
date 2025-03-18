@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button"
+import { CustomAlert } from "@/components/custom-alert"
 import { CheckCircle } from "lucide-react"
 import Image from 'next/image'
 
 export function Certification() {
     return (
-        <section id="certificacao" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+        <section id="certificacao" className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
             <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
                 <div className="inline-block rounded-lg bg-green-100 px-3 py-1 text-sm text-green-700">Certificação</div>
@@ -50,8 +50,7 @@ export function Certification() {
                     <div>
                         <h4 className="font-bold text-green-800">Análise Técnica</h4>
                         <p className="text-gray-600">
-                        Avaliação completa da infraestrutura física, incluindo rampas, elevadores, banheiros adaptados e
-                        sinalização tátil.
+                        Avaliação completa da infraestrutura física, incluindo rampas, elevadores, banheiros adaptados, sinalização tátil e outros.
                         </p>
                     </div>
                     </div>
@@ -83,7 +82,16 @@ export function Certification() {
                     </div>
                 </div>
 
-                <Button className="bg-green-600 hover:bg-green-700 mt-4">Solicitar Certificação</Button>
+                <CustomAlert
+                    buttonText="Solicitar Certificação"
+                    alertTitle="Certificação"
+                    alertMessage="Nosso processo de certificação ainda está em desenvolvimento e ainda não está disponível. Enquanto isso, nos ajude respondendo a nossa pesquisa de campo."
+                    variant="default"
+                    size="default"
+                    className="bg-green-600 hover:bg-green-700 mt-4"
+                    actionButtonText="OK"
+                    actionButtonVariant="default"
+                />
                 </div>
             </div>
             </div>

@@ -1,6 +1,6 @@
-import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import { CustomAlert } from "@/components/custom-alert";
+import Image from "next/image";
+import Link from "next/link";
 
 export function HeaderSection() {
     return (
@@ -14,7 +14,9 @@ export function HeaderSection() {
                         height={32}
                         className="rounded-md bg-green-600"
                     />
-                    <span className="text-xl font-bold text-green-600">EducaAvalia</span>
+                    <span className="text-xl font-bold text-green-600">
+                        EducaAvalia
+                    </span>
                 </Link>
                 <nav className="hidden md:flex gap-6">
                     <Link href="#quem-somos" className="text-sm font-medium hover:text-green-600 transition-colors">
@@ -36,8 +38,17 @@ export function HeaderSection() {
                         Contato
                     </Link>
                 </nav>
-                <Button className="bg-green-600 hover:bg-green-700">Baixe o App</Button>
+                <CustomAlert
+                    buttonText="Baixe o App"
+                    alertTitle="Aplicativo"
+                    alertMessage="Nosso aplicativo ainda está em desenvolvimento e não está disponível para o público. Enquanto isso, nos ajude respondendo a nossa pesquisa de campo."
+                    variant="default"
+                    size="default"
+                    className="bg-green-600 hover:bg-green-700"
+                    actionButtonText="OK"
+                    actionButtonVariant="default"
+                />
             </div>
-      </header>
-    )
+        </header>
+    );
 }

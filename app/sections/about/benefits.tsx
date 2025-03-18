@@ -18,9 +18,9 @@ export function Benefits() {
               <div className="flex items-start space-x-4">
                 <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-bold text-green-800">Informações Verificadas</h3>
+                  <h3 className="text-xl font-bold text-green-800">Aplicativo Acessível</h3>
                   <p className="text-gray-600">
-                    Todas as escolas e recursos de acessibilidade são verificados pela nossa equipe.
+                    Aplicativo desenvolvido com uma interface intuitiva e amigável, incorporando tecnologias de acessibilidade.
                   </p>
                 </div>
               </div>

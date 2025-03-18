@@ -21,7 +21,7 @@ export function HowWorks() {
               </div>
               <h3 className="text-xl font-bold text-green-800">Baixe o App</h3>
               <p className="text-gray-600 text-center">
-                Disponível para Android e iOS, baixe gratuitamente e crie seu perfil.
+                Em breve disponível para Android e iOS. Baixe gratuitamente e crie seu perfil.
               </p>
             </div>
 

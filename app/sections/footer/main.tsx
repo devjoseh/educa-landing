@@ -1,13 +1,12 @@
-import { MapPin, Mail } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { MapPin, Mail, Instagram, Linkedin } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
 export function FooterSection() {
     return (
         <footer id="contato" className="w-full border-t bg-green-800 text-white">
-        <div className="container px-4 py-12 md:px-6 ">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-4 justify-items-center">
+        <div className="container px-4 py-12 md:px-6">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
             <div className="space-y-4">
               <Link href="/" className="flex items-center gap-2">
                 <Image
@@ -55,18 +54,31 @@ export function FooterSection() {
             <div className="space-y-4">
               <h3 className="text-lg font-bold">Contato</h3>
               <div className="flex flex-col space-y-2 text-green-100">
+                <div className="flex items-start">
+                  <MapPin className="mr-2 h-4 w-4 mt-1" />
+                  <span>ETEC Abdias do Nascimento S/N - São Paulo, SP</span>
+                </div>
                 <div className="flex items-center">
                   <Mail className="mr-2 h-4 w-4" />
                   <span>contato@educaavalia.com.br</span>
                 </div>
                 <div className="flex items-start">
-                  <MapPin className="mr-2 h-4 w-4 mt-1" />
-                  <span>ETEC Abdias do Nascimento S/N - São Paulo, SP</span>
+                  <Instagram className="mr-2 h-4 w-4 mt-1" />
+                  <Link href="https://www.instagram.com/educaavalia/" target="_blank" className="hover:text-green-300 transition-colors">
+                    @educaavalia
+                  </Link>
+                </div>
+                <div className="flex items-start">
+                  <Linkedin className="mr-2 h-4 w-4 mt-1" />
+                  <Link href="https://www.linkedin.com/company/educaavalia" target="_blank" className="hover:text-green-300 transition-colors">
+                    EducaAvalia
+                  </Link>
                 </div>
               </div>
             </div>
 
-            <div className="space-y-4">
+            {/* Adicionar funcionalidade para o usuário cadastrar o e-mail dele */}
+            {/* <div className="space-y-4">
               <h3 className="text-lg font-bold">Newsletter</h3>
               <p className="text-green-100">Receba novidades e atualizações sobre acessibilidade escolar.</p>
               <form className="flex flex-col space-y-2">
@@ -77,7 +89,7 @@ export function FooterSection() {
                 />
                 <Button className="bg-white text-green-800 hover:bg-green-100">Inscrever-se</Button>
               </form>
-            </div>
+            </div> */}
           </div>
 
           <div className="mt-12 pt-6 border-t border-green-700 text-center text-green-300 text-sm">

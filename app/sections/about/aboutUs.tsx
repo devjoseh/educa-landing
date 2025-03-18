@@ -8,15 +8,10 @@ export function AboutUs() {
                 Nossa Missão
               </h2>
               <p className="max-w-[700px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.
+                Fornecer informações precisas e confiáveis sobre a acessibilidade das escolas. Queremos ajudar a tornar o processo de escolha de uma escola mais fácil e inclusiva para todos, fornecendo avaliações detalhadas e precisas sobre a acessibilidade das escolas para pessoas com deficiência física.
               </p>
               <p className="max-w-[700px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                laudantium.
+                A educação é um direito fundamental e universal, e todas as pessoas devem ter acesso a uma educação de qualidade, independente de suas limitações físicas ou cognitivas.
               </p>
             </div>
           </div>

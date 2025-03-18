@@ -7,6 +7,9 @@ export default function Home() {
             <HeaderSection />
             
             <main className="flex-1">
+                {/* Form Section */}
+                <Content.Form />
+
                 {/* Hero Section */}
                 <Content.Hero />
 
@@ -23,7 +26,7 @@ export default function Home() {
                 <Content.Certification />
 
                 {/* Testimonials Section */}
-                <Content.Testimonials />
+                {/* <Content.Testimonials /> */}
 
                 {/* FAQ Section */}
                 <Content.FAQ />

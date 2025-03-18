@@ -1,6 +1,7 @@
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ChevronRight } from "lucide-react"
+import Image from "next/image"
+import Link from 'next/link'
 
 export function Hero() {
     return (
@@ -16,13 +17,17 @@ export function Hero() {
                   inclusiva e oportunidades iguais para todos.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
+                  <Link href="https://www.instagram.com/educaavalia/" target="_blank" className="hover:text-green-300 transition-colors">
                   <Button className="bg-green-600 hover:bg-green-700">
                     Saiba Mais
                     <ChevronRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
-                    Entre em Contato
-                  </Button>
+                  </Link>
+                  <Link href="#contato">
+                    <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
+                      Entre em Contato
+                    </Button>
+                  </Link>
                 </div>
               </div>
               <div className="relative h-[300px] sm:h-[400px] lg:h-[500px]">

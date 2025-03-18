@@ -16,24 +16,21 @@ export function FAQ() {
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="text-xl font-bold text-green-800 mb-2">O aplicativo é gratuito?</h3>
                 <p className="text-gray-600">
-                  Sim, o EducaAvalia é totalmente gratuito para estudantes e famílias. Nosso objetivo é tornar a
-                  educação acessível para todos.
+                  Sim, o EducaAvalia é totalmente gratuito para estudantes e famílias. Nosso objetivo é tornar a educação acessível para todos.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="text-xl font-bold text-green-800 mb-2">Como as escolas são avaliadas?</h3>
                 <p className="text-gray-600">
-                  As escolas são avaliadas com base em critérios específicos de acessibilidade, incluindo infraestrutura
-                  física, recursos pedagógicos e suporte especializado.
+                  As escolas são avaliadas com base em critérios específicos de acessibilidade, incluindo infraestrutura física, suporte especializado, entre outros.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="text-xl font-bold text-green-800 mb-2">Posso contribuir com avaliações?</h3>
                 <p className="text-gray-600">
-                  Sim! Incentivamos estudantes e famílias a compartilharem suas experiências para ajudar outros a
-                  encontrarem escolas adequadas.
+                  Sim! Incentivamos estudantes e famílias a compartilharem suas experiências para ajudar outros a encontrarem escolas adequadas.
                 </p>
               </div>
 
@@ -42,8 +39,7 @@ export function FAQ() {
                   O aplicativo está disponível em quais regiões?
                 </h3>
                 <p className="text-gray-600">
-                  Atualmente, cobrimos as principais cidades brasileiras e estamos expandindo constantemente para novas
-                  regiões.
+                  Atualmente, cobrimos todo o estado de São Paulo e estamos expandindo constantemente para novas regiões.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -51,9 +47,7 @@ export function FAQ() {
                   Como uma escola pode obter o certificado de acessibilidade?
                 </h3>
                 <p className="text-gray-600">
-                  A escola pode solicitar uma avaliação através do aplicativo ou site. Nossa equipe realizará uma
-                  análise completa baseada na NBR 9050 e, se aprovada, a escola receberá o certificado e destaque no
-                  aplicativo.
+                  A escola pode solicitar uma avaliação. Nossa equipe realizará uma análise completa e, se aprovada, a escola receberá o certificado e destaque no aplicativo.
                 </p>
               </div>
             </div>
