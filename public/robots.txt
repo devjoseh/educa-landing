@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Host
+Host: https://educaavalia.com.br
+
+# Sitemaps
+Sitemap: https://educaavalia.com.br/sitemap.xml
