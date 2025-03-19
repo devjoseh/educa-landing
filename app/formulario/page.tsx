@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 
 export default function RedirectPage() {
     const [countdown, setCountdown] = useState(5);
-    const surveyUrl = "https://forms.gle/XsQk1gZoWTtLB8h79";
+    const surveyUrl = "https://forms.gle/rbqNpQhxjtuUwV1J7";
     const homeUrl = "/";
 
     useEffect(() => {
